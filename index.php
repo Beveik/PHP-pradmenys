@@ -39,13 +39,19 @@
 <button type="submit">Patvirtinti</button>
     </form> -->
 
-    <form action="spalva.php" method="post">
+    <!-- <form action="spalva.php" method="post">
 <input type="text" name="spalva"><br>
 
 <button type="submit">Nuspalvink</button>
 <br>
-    </form>
+    </form> -->
 
+    <form action="graza.php" method="get">
+<input type="text" name="graza"><br>
+
+<button type="submit">Skaiciuok gražą</button>
+<br>
+    </form>
 
 </body>
 </html>
