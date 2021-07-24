@@ -16,7 +16,7 @@ if(isset($pirmas)&& !empty($pirmas) && isset($antras)&& !empty($antras) && isset
     
 
 
-if(is_float($pirmas) && is_float($antras)) {
+if(is_numeric($pirmas) && is_numeric($antras)) {
 
 if($veiksmas == "+"){
     $rezultatas=$pirmas+$antras;
